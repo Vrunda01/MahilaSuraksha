@@ -7,7 +7,7 @@
     tools:context=".Registrationform">
 
     <TextView
-        android:id="@+id/txtreg"
+        android:id="@+id/txtregistartion"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Registration Form"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtreg"
+        app:layout_constraintTop_toBottomOf="@+id/txtregistartion"
         app:layout_constraintVertical_bias="0.01">
 
         <EditText
