@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".CallActivity">
-    
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,11 +16,10 @@
         android:maxLength="10"
         android:inputType="phone" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnCall"
-        android:layout_marginTop="10dp"
+    <ImageView
+        android:id="@+id/img_call"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:src="@drawable/ic_call"/>
 
 </LinearLayout>
