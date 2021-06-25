@@ -4,20 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:gravity="right"
+    android:orientation="vertical"
     tools:context=".Call_List">
 
-    <ImageButton
-        android:id="@+id/ic_add_contact"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_person" />
+        android:orientation="horizontal"
+        android:layout_gravity="end">
 
-    <ImageButton
-        android:id="@+id/ic_call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_call"/>
+        <ImageButton
+            android:id="@+id/ic_add_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_person" />
+
+        <ImageButton
+            android:id="@+id/ic_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>
