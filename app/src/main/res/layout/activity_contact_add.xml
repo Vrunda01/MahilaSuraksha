@@ -5,6 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".Contact_Add">
+
+    <EditText
+        android:id="@+id/input_number"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:hint="Enter Number"/>
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@android:color/transparent"/>
 
 </LinearLayout>
