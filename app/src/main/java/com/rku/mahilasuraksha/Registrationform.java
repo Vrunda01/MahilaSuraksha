@@ -14,7 +14,7 @@ public class Registrationform extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrationform);
 
-        Button button = (Button) findViewById(R.id.SHOW_PROGRESS);
+        Button button = (Button) findViewById(R.id.btnreg);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
