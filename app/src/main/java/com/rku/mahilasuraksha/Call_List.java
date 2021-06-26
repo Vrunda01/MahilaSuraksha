@@ -26,5 +26,13 @@ public class Call_List extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        person.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Call_List.this, Contact_Add.class);
+                startActivity(intent);
+            }
+        });
     }
 }
