@@ -12,13 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Phone"></activity>
-        <activity android:name=".Registrationform" />
-        <activity android:name=".CallActivity">
+        <activity android:name=".Registrationform">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".CallActivity">
+
         </activity>
     </application>
 
