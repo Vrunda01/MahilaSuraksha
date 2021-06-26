@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Phone"></activity>
-        <activity android:name=".Registrationform"></activity>
+        <activity android:name=".Registrationform" />
         <activity android:name=".CallActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
