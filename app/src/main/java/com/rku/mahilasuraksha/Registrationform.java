@@ -20,7 +20,6 @@ public class Registrationform extends AppCompatActivity {
             public void onClick(View view) {
                 Phone();
             }
-
         });
     }
 
