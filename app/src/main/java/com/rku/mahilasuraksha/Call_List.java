@@ -17,6 +17,7 @@ public class Call_List extends AppCompatActivity {
 
         person = findViewById(R.id.ic_add_contact);
         call = findViewById(R.id.ic_call);
+        setTitle("Call List");
 
         call.setOnClickListener(new View.OnClickListener() {
             @Override
