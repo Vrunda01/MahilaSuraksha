@@ -66,14 +66,14 @@
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="148dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/Nameid"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:ignore="LabelFor" />
@@ -103,7 +103,6 @@
         android:layout_marginEnd="50dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Name"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -203,7 +202,7 @@
         app:layout_constraintTop_toBottomOf="@+id/Phoneedt" />
 
     <TextView
-        android:id="@+id/Contactis"
+        android:id="@+id/Contactid"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginTop="12dp"
@@ -226,7 +225,7 @@
         android:layout_marginEnd="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/Contactis"
+        app:layout_constraintStart_toEndOf="@+id/Contactid"
         app:layout_constraintTop_toBottomOf="@+id/Addressedt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
