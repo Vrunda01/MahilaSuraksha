@@ -17,11 +17,20 @@ public class Call_List extends AppCompatActivity {
 
         person = findViewById(R.id.ic_add_contact);
         call = findViewById(R.id.ic_call);
+        setTitle("Call List");
 
         call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(Call_List.this, CallActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        person.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Call_List.this, Contact_Add.class);
                 startActivity(intent);
             }
         });
