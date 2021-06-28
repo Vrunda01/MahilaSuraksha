@@ -8,4 +8,5 @@
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_accouny_details">Accouny_details</string>
     <string name="title_activity_account_details">Account_details</string>
+    <string name="title_activity_my__profile">My_Profile</string>
 </resources>

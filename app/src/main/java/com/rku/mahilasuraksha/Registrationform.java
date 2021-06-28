@@ -28,4 +28,5 @@ public class Registrationform extends AppCompatActivity {
         Intent intent = new Intent(this, Phone.class);
         startActivity(intent);
     }
+
 }
