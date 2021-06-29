@@ -7,7 +7,7 @@
     android:background="#FFFFFF"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".My_Profile">
+    tools:context=".MyProfile">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -71,7 +71,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/Nameid"
@@ -99,11 +99,11 @@
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="50dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/Emailid"
@@ -130,11 +130,11 @@
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="50dp"
         android:ems="10"
         android:inputType="number|textPassword"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/Passid"
@@ -165,7 +165,7 @@
         android:layout_marginEnd="50dp"
         android:ems="10"
         android:inputType="phone"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/Phoneid"
@@ -195,14 +195,14 @@
         android:layout_marginEnd="50dp"
         android:ems="10"
         android:inputType="textPostalAddress"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/Addrssid"
         app:layout_constraintTop_toBottomOf="@+id/Phoneedt" />
 
     <TextView
-        android:id="@+id/Contactid"
+        android:id="@+id/Contactis"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginTop="12dp"
@@ -223,9 +223,11 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="50dp"
+        android:dropDownWidth="wrap_content"
+        android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/Contactid"
+        app:layout_constraintStart_toEndOf="@+id/Contactis"
         app:layout_constraintTop_toBottomOf="@+id/Addressedt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
