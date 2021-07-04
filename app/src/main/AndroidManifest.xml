@@ -4,8 +4,12 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-feature android:name="android.hardware.type.watch" />
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +18,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
 
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
@@ -24,7 +31,15 @@
             android:value="true" />
 
         <activity
-            android:name=".MyProfile">
+            android:name=".MapKey"
+            android:label="@string/title_activity_map_key">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyProfile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,10 +50,8 @@
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
         -->
-        <activity android:name=".Call_List"></activity>
-        <activity android:name=".Registrationform">
-
-        </activity>
+        <activity android:name=".Call_List" />
+        <activity android:name=".Registrationform"></activity>
         <activity android:name=".CallActivity" />
 
         <meta-data
