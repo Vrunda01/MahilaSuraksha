@@ -17,20 +17,5 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapKey extends AppCompatActivity {
 
-    SupportMapFragment smf;
-    LocationProvider client;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-
-
-
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map_key);
-
-        smf=(SupportMapFragmentmapFragment)getSupportFragmentManager().findFragmentById(R.id.mapkey);
-        client=ILocationSourceDelegate.getLocationProvider( this );
-
-        mapFragment.getMapAsync(this);
-    }
 }
