@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Mahila Suraksha</string>
+    <string name="title_activity_map_key">Map</string>
 </resources>
