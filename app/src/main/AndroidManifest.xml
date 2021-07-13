@@ -3,7 +3,6 @@
     package="com.rku.mahilasuraksha">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -16,12 +15,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <uses-library
             android:name="com.google.android.wearable"
             android:required="false" />
-        <uses-library android:name="com.google.android.maps"
-            android:required="false"/>
-
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="false" />
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
@@ -32,10 +32,8 @@
 
         <activity
             android:name=".MapKey"
-            android:label="@string/title_activity_map_key">
-
-        </activity>
-        <activity android:name=".MyProfile">
+            android:label="@string/title_activity_map_key" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,8 +44,10 @@
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
         -->
+        <activity android:name=".LoginForm"/>
+        <activity android:name=".MyProfile" />
         <activity android:name=".Call_List" />
-        <activity android:name=".Registrationform"></activity>
+        <activity android:name=".Registrationform" />
         <activity android:name=".CallActivity" />
 
         <meta-data
